@@ -12,9 +12,14 @@ GitHub'da README içeren ilk repo; en az 5 anlamlı commit.
 
 ## Durum
 
-- [ ] Tamamlandı
+- [x] Tamamlandı
 - [ ] Günlük not yazıldı → [`gunluk-notlar/gun-01.md`](../../gunluk-notlar/gun-01.md)
 
 ## Bu klasörde ne var?
 
-_(Dosyaları ekledikçe buraya tek satırla ne olduklarını yaz. Örnek: `tabs.html` — sekmeli arayüz)_
+Bu gün kod üretimi içermiyor — kurulum ve Git/GitHub akışının öğrenilmesi günüydü. Kanıt, kod dosyası değil, repo geçmişindeki commit'ler ve `gunluk-notlar/gun-01.md` içindeki notlar:
+
+- Git ve GitHub bağlantısı kuruldu, ilk repo oluşturuldu.
+- `git init` / `add` / `commit` / `push` akışı öğrenildi ve pratik edildi.
+- `.gitignore` dosyasının kopyalama sırasında eksik gelme sorunu tespit edilip çözüldü (detay: günlük notta).
+- Toplam 5 anlamlı commit atıldı.
