@@ -1,11 +1,11 @@
-# Hafta 1 (Gün 1-5): Ortam, CSS ve JavaScript Temelleri
+# Hafta 1 (Gün 1-5): Ortam, Git ve JavaScript'e Giriş
 
 | Gün | Konu | Klasör |
 |:--:|---|---|
-| 1 | Git doğrulama + Flexbox | [`gun-01-git-flexbox`](gun-01-git-flexbox/) |
-| 2 | CSS Grid ve responsive tasarım | [`gun-02-css-grid`](gun-02-css-grid/) |
-| 3 | JavaScript temelleri I + II *(mentor görüşmesi)* | [`gun-03-js-temeller`](gun-03-js-temeller/) |
-| 4 | Diziler ve objeler | [`gun-04-diziler-objeler`](gun-04-diziler-objeler/) |
-| 5 | Array metodları | [`gun-05-array-metodlari`](gun-05-array-metodlari/) |
+| 1 | Ortam kurulumu ve Git | [`gun-01-ortam-git`](gun-01-ortam-git/) |
+| 2 | HTML/CSS pekiştirme: Flexbox | [`gun-02-flexbox`](gun-02-flexbox/) |
+| 3 | CSS Grid ve responsive tasarım | [`gun-03-css-grid`](gun-03-css-grid/) |
+| 4 | JavaScript temelleri I | [`gun-04-js-temelleri-1`](gun-04-js-temelleri-1/) |
+| 5 | JavaScript temelleri II + hafta değerlendirmesi *(mentor görüşmesi)* | [`gun-05-js-temelleri-2`](gun-05-js-temelleri-2/) |
 
 ← [Ana takip tablosuna dön](../README.md)

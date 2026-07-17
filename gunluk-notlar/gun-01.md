@@ -1,4 +1,4 @@
-# Gün 01 — Git doğrulama + Flexbox
+# Gün 01 — Ortam kurulumu ve Git
 
 **Tarih:** ___ / ___ / 2026
 
@@ -17,7 +17,7 @@
 
 **Puan:** ___ / 5
 
-- **4-5** → konu oturmuş, ilerle.
+- **4-5** → konu oturmuş, ilerle. İstersen aynı gün bir sonraki konuya geç.
 - **1-3** → gün "bitti" sayılır ama ertesi sabah 15-20 dk bu konuya geri dön.
 
 ## AI kullandım mı? Ürettiği her satırı açıklayabiliyor muyum?

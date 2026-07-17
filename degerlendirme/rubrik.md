@@ -1,11 +1,11 @@
 # Değerlendirme Rubriği
 
-Final değerlendirmesi son gün bu rubrikle yapılır. Ara görüşmelerde (Gün 3, Gün 12, Gün 21)
-de aynı kriterler üzerinden kısa notlar alınır — gelişimin izlenmesi için.
+Final değerlendirmesi 30. günde bu rubrikle yapılır. 5, 15 ve 25. gün görüşmelerinde de aynı
+kriterler üzerinden kısa notlar alınır — gelişimin izlenmesi için.
 
 **Toplam 25 üzerinden 18 ve üzeri = staj başarılı.**
 
-| # | Kriter | Neye bakılır | Gün 3 | Gün 12 | Gün 21 | Final |
+| # | Kriter | Neye bakılır | Gün 5 | Gün 15 | Gün 25 | Final (Gün 30) |
 |:--:|---|---|:--:|:--:|:--:|:--:|
 | 1 | JavaScript temeli | Diziler, fonksiyonlar, asenkron akış üzerinde yardımsız çalışabilme; hata mesajını okuyup kendi başına çözme çabası. | | | | |
 | 2 | React yetkinliği | Component ayrıştırma, state/props ayrımı, useEffect'i doğru kullanma. | | | | |
@@ -14,24 +14,24 @@ de aynı kriterler üzerinden kısa notlar alınır — gelişimin izlenmesi iç
 | 5 | Teslimat disiplini | Günlük çıktıların zamanında ve tarif edilen kapsamda teslimi. | | | | |
 | | **TOPLAM** | | **/25** | **/25** | **/25** | **/25** |
 
-> Not: Gün 3 görüşmesinde React kriteri henüz değerlendirilemez (React'e Gün 13'te geçiliyor).
+> Not: Gün 5 görüşmesinde React kriteri henüz değerlendirilemez (React'e Gün 16'da geçiliyor).
 
 ---
 
 ## Görüşme Notları
 
-### Gün 3 — haftalık değerlendirme
+### Gün 5 — haftalık değerlendirme
 -
 
-### Gün 12 — KONTROL NOKTASI
-**Karar:** ☐ React'e geçilir  ☐ JS içeriği tekrarlanır
+### Gün 15 — KONTROL NOKTASI
+**Karar:** ☐ React'e geçilir  ☐ Hafta 3 içeriği tekrarlanır
 
 **Gerekçe:**
 -
 
-### Gün 21 — bitirme projesi kapsamı
+### Gün 25 — bitirme projesi kapsamı
 **Onaylanan kapsam:**
 -
 
-### Gün 25 — final
+### Gün 30 — final
 -
