@@ -1,0 +1,22 @@
+# Bağımlılıklar
+node_modules/
+
+# Build çıktıları
+dist/
+build/
+.vite/
+
+# Ortam değişkenleri — API anahtarları buraya, asla commit'leme
+.env
+.env.local
+.env.*.local
+
+# Editör / işletim sistemi
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Loglar
+*.log
+npm-debug.log*
