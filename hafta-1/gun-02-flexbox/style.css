@@ -23,7 +23,6 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: var(--header-h);
 }
 
 body {
@@ -139,7 +138,6 @@ header {
     height: 100%;
     color: var(--bakir);
     opacity: 0.09;
-    pointer-events: none;
     mask-image: radial-gradient(120% 90% at 50% 45%, transparent 25%, #000 75%);
 }
 
