@@ -41,7 +41,6 @@ Bu günün görsel tasarımı ve SVG motifleri (mühür, koza, kafes deseni, kö
   </tr>
   <tr>
     <td><img width="500" alt="Hero bölümü - masaüstü" src="https://github.com/user-attachments/assets/408765fe-c8e0-480b-b6e7-ac680e9b8313" /></td>
-    <td><img width="200" alt="Hero bölümü - mobil" src="HERO_MOBIL_LINK" /></td>
   </tr>
 </table>
 
@@ -49,8 +48,8 @@ Bu günün görsel tasarımı ve SVG motifleri (mühür, koza, kafes deseni, kö
 
 <table>
   <tr>
-    <td><img width="500" alt="Hero bölümü - masaüstü" src="HERO_MASAUSTU_LINK" /></td>
-    <td><img width="200" alt="Hero bölümü - mobil" src="HERO_MOBIL_LINK" /></td>
+    <td><img width="500" alt="Hero bölümü - masaüstü" src="https://github.com/user-attachments/assets/2dbdfa34-8b50-402b-bd6c-363de4f70783" /></td>
+    <td><img width="200" alt="Hero bölümü - mobil" src="https://github.com/user-attachments/assets/64312aec-18b8-419f-815c-227a470eb06d" /></td>
   </tr>
 </table>
 
