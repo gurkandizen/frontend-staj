@@ -13,7 +13,7 @@ Flexbox ile responsive tek sayfa (mobil + masaüstü).
 ## Durum
 
 - [x] Tamamlandı
-- [ ] Günlük not yazıldı → [`gunluk-notlar/gun-02.md`](../../gunluk-notlar/gun-02.md)
+- [x] Günlük not yazıldı → [`gunluk-notlar/gun-02.md`](../../gunluk-notlar/gun-02.md)
 
 ## Bu klasörde ne var?
 
