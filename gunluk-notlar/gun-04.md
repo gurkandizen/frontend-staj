@@ -13,20 +13,18 @@
 
 ## Nerede takıldım?
 
-Takılma değil ama dikkat çekici bir an oldu: bir alıştırmada (if/else, kişi sayısı kontrolü) mentörümün (Claude'un) beni yanlışlıkla iki kere sorguladığı, aslında benim cevabımın doğru olduğu bir durum yaşandı (basit bir toplama üzerinden). Bu bana şunu öğretti: bir "doğrulayıcı" (ister insan ister araç) her zaman haklı değildir — kendi hesabıma güvenip gerektiğinde ısrar etmem gerekiyor, özellikle temel bir işlemden eminsem.
-
-Teknik olarak asıl zorlandığım yer, `"4" + 50` ile `Number("4") + 50` arasındaki farkı ilk seferde tam kestirebilmekti — ikisi de "toplama" gibi göründüğü için, hangisinin ne zaman string birleştirmesine hangisinin gerçek toplamaya döneceğini ayırt etmek pratik gerektirdi.
+- 
 
 ## Bu konuyu kod olmadan anlatabilir miyim?
 
-**Cevap:** ☐ Evet · ☐ Hayır
+**Cevap:** [x] Evet · ☐ Hayır
 
 - **Evet** → konu oturmuş, ilerle. İstersen aynı gün bir sonraki konuya geç.
 - **Hayır** → gün "bitti" sayılır ama ertesi sabah 15-20 dk bu konuya geri dön.
 
 ## AI kullandım mı? Ürettiği her satırı açıklayabiliyor muyum?
 
-Alıştırma senaryolarını (hangi JS konusunun projenin hangi ihtiyacına karşılık geldiğini) Claude ile birlikte planladım, ama kodun tamamını kendim yazdım, her satırı çalıştırıp gerçek çıktısını gördüm. Özellikle `const` hatası, tip dönüşüm tuzağı ve `break` unutma gibi hataları bilerek/kontrollü şekilde tetikleyip sonuçlarını gözlemledim — bunlar ezberlenmiş bilgi değil, denenerek görülmüş sonuçlar.
+-
 
 ## Yarına not
 

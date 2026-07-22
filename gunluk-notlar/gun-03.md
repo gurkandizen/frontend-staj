@@ -27,7 +27,7 @@
 
 ## Bu konuyu kod olmadan anlatabilir miyim?
 
-**Cevap:** ☐ Evet · ☐ Hayır
+**Cevap:** [x] Evet · ☐ Hayır
 
 - **Evet** → konu oturmuş, ilerle. İstersen aynı gün bir sonraki konuya geç.
 - **Hayır** → gün "bitti" sayılır ama ertesi sabah 15-20 dk bu konuya geri dön.

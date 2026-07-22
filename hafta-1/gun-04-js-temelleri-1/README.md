@@ -45,4 +45,4 @@ Bu mantık henüz sayfaya bağlı değil (saf JS, console çıktısı). DOM'a ge
 
 ## AI kullanımı — şeffaflık notu
 
-Alıştırma senaryoları (hangi konunun hangi proje ihtiyacına bağlanacağı) Claude ile birlikte planlandı, ama kod satır satır kendim yazıp çalıştırdım, her hatayı (const değiştirme, tip tuzağı, break unutma) gerçekten deneyerek gördüm.
+Alıştırma senaryoları (hangi konunun hangi proje ihtiyacına bağlanacağı) Claude ile birlikte tartıştım, ama kod satır satır kendim yazıp çalıştırdım, her hatayı (const değiştirme, tip tuzağı, break unutma) gerçekten deneyerek gördüm.
