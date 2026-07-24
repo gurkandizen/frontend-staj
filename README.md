@@ -34,12 +34,12 @@ payı yalnızca JavaScript/DOM/async bloklarının *dışında*, tekrar niteliğ
 
 | Gün | Konu | Konum | Durum |
 |:--:|---|---|:--:|
-| 1 | Ortam kurulumu ve Git | [`gun-01-ortam-git`](hafta-1/gun-01-ortam-git/) | ☐ |
-| 2 | HTML/CSS pekiştirme: Flexbox | [`gun-02-flexbox`](hafta-1/gun-02-flexbox/) | ☐ |
-| 3 | CSS Grid ve responsive tasarım | [`gun-03-css-grid`](hafta-1/gun-03-css-grid/) | ☐ |
-| 4 | JavaScript temelleri I | [`gun-04-js-temelleri-1`](hafta-1/gun-04-js-temelleri-1/) | ☐ |
-| 5 | JavaScript temelleri II + hafta değerlendirmesi *(mentor görüşmesi)* | [`gun-05-js-temelleri-2`](hafta-1/gun-05-js-temelleri-2/) | ☐ |
-| 6 | Diziler ve objeler | [`gun-06-diziler-objeler`](hafta-2/gun-06-diziler-objeler/) | ☐ |
+| 1 | Ortam kurulumu ve Git | [`gun-01-ortam-git`](hafta-1/gun-01-ortam-git/) | [x] |
+| 2 | HTML/CSS pekiştirme: Flexbox | [`gun-02-flexbox`](hafta-1/gun-02-flexbox/) | [x] |
+| 3 | CSS Grid ve responsive tasarım | [`gun-03-css-grid`](hafta-1/gun-03-css-grid/) | [x] |
+| 4 | JavaScript temelleri I | [`gun-04-js-temelleri-1`](hafta-1/gun-04-js-temelleri-1/) | [x] |
+| 5 | JavaScript temelleri II + hafta değerlendirmesi *(mentor görüşmesi)* | [`gun-05-js-temelleri-2`](hafta-1/gun-05-js-temelleri-2/) | [x] |
+| 6 | Diziler ve objeler | [`gun-06-diziler-objeler`](hafta-2/gun-06-diziler-objeler/) | [x] |
 | 7 | Array metodları | [`gun-07-array-metodlari`](hafta-2/gun-07-array-metodlari/) | ☐ |
 | 8 | DOM I: Seçme ve manipülasyon | [`gun-08-dom-1`](hafta-2/gun-08-dom-1/) | ☐ |
 | 9 | DOM II: Event'ler | [`gun-09-dom-2`](hafta-2/gun-09-dom-2/) | ☐ |
