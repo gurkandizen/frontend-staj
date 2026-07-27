@@ -319,7 +319,14 @@
                   <rect width="100%" height="100%" fill="url(#kafes)" />
                 </svg>
 
-                <section class="menu-group">
+                <div class="menu-tabs" role="tablist">
+                  <button class="menu-tab is-active" data-tab="espresso" role="tab">Espresso Bazlı</button>
+                  <button class="menu-tab" data-tab="filtre" role="tab">Demleme &amp; Filtre</button>
+                  <button class="menu-tab" data-tab="soguk" role="tab">Soğuk Kahveler</button>
+                  <button class="menu-tab" data-tab="tatli" role="tab">Fırın &amp; Tatlı</button>
+                </div>
+
+                <section class="menu-group menu-panel is-active" data-panel="espresso">
                   <h3 class="menu-group-title"><span>Espresso Bazlı</span></h3>
 
                   <div class="m-item">
@@ -367,7 +374,7 @@
                   </div>
                 </section>
 
-                <section class="menu-group">
+                <section class="menu-group menu-panel" data-panel="filtre">
                   <h3 class="menu-group-title"><span>Demleme &amp; Filtre</span></h3>
 
                   <div class="m-item">
@@ -403,14 +410,14 @@
                   </div>
                 </section>
 
-                <section class="menu-group">
+                <section class="menu-group menu-panel" data-panel="soguk">
                   <h3 class="menu-group-title"><span>Soğuk Kahveler</span></h3>
                   <div class="m-item"><div class="m-line"><span class="m-name">Buzlu Latte</span><span class="m-leader"></span><span class="m-price">105₺</span></div><span class="m-desc">Soğuk süt, taze espresso.</span></div>
                   <div class="m-item"><div class="m-line"><span class="m-name">Cold Brew</span><span class="m-leader"></span><span class="m-price">115₺</span></div><span class="m-desc">12 saat demleme, düşük asit.</span></div>
                   <div class="m-item"><div class="m-line"><span class="m-name">Affogato</span><span class="m-leader"></span><span class="m-price">130₺</span></div><span class="m-desc">Sade dondurma, sıcak espresso.</span></div>
                 </section>
 
-                <section class="menu-group">
+                <section class="menu-group menu-panel" data-panel="tatli">
                   <h3 class="menu-group-title"><span>Fırın &amp; Tatlı</span></h3>
                   <div class="m-item"><div class="m-line"><span class="m-name">Tereyağlı Kruvasan</span><span class="m-leader"></span><span class="m-price">90₺</span></div><span class="m-desc">Taptaze fırından, Fransız klasiği.</span></div>
                   <div class="m-item"><div class="m-line"><span class="m-name">Günün Keki</span><span class="m-leader"></span><span class="m-price">85₺</span></div><span class="m-desc">Tezgâhta ne varsa, o günün tazesi.</span></div>

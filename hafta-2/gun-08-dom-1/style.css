@@ -658,6 +658,73 @@ header {
 
 .menu-group-title span { white-space: nowrap; }
 
+/* ---------- MENÜ SEKMELERİ ---------- */
+.menu-tabs {
+    position: relative;
+    z-index: 1;
+    flex: 1 1 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 28px;
+    margin-bottom: 8px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(181, 121, 58, 0.25);
+}
+
+.menu-tab {
+    position: relative;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px 2px;
+    font-family: var(--font-baslik);
+    font-weight: 600;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    font-size: 15px;
+    color: rgba(22, 35, 29, 0.45);
+    transition: color 0.25 ease;
+}
+
+.menu-tab:hover {
+    color: var(--bakir);
+}
+
+.menu-tab.is-active {
+    color: var(--cam-yesili);
+}
+
+/* aktif sekmenin altındaki bakır çizgi */
+.menu-tab.is-active::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -17px;
+    height: 2px;
+    background: var(--bakir);
+}
+
+/* paneller: varsayılan gizli, aktif olan görünür */
+.menu-panel {
+    display: none;
+}
+
+.menu-panel.is-active {
+    display: block;
+    flex: 1 1 100%;
+}
+
+/* çok hafif giriş animasyonu — sayfanın sakin ruhuna uygun */
+.menu-panel.is-active {
+    animation: panel-fade 0.3s ease;
+}
+
+@keyframes panel-fade {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
 .m-item {
     padding: 9px 0;
     border-bottom: 1px solid rgba(181, 121, 58, 0.2);
