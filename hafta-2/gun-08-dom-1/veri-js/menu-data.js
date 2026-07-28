@@ -1,7 +1,7 @@
 export const menuData = {
   espresso: [
-    { ad: "Espresso", aciklama: "Tek shot; yoğun, kısa.", fiyat: 65 },
     { ad: "Double Espresso", aciklama: "Tek shot ile yetinemeyenler için", fiyat: 75 },
+    { ad: "Espresso", aciklama: "Tek shot; yoğun, kısa.", fiyat: 65 },
     { ad: "Cortado", aciklama: "Espresso ve az sütün dengesi.", fiyat: 95 },
     { ad: "Cappuccino", aciklama: "Kadifemsi köpük, üç katman.", fiyat: 100 },
     { ad: "Flat White", aciklama: "İnce köpük, güçlü karakter.", fiyat: 105 },
@@ -22,6 +22,7 @@ export const menuData = {
     { ad: "Tereyağlı Kruvasan", aciklama: "Taptaze fırından, Fransız klasiği.", fiyat: 90 },
     { ad: "Günün Keki", aciklama: "Tezgâhta ne varsa, o günün tazesi.", fiyat: 85 },
     { ad: "Fındıklı Brownie", aciklama: "Yoğun çikolata, kavrulmuş fındık.", fiyat: 95 },
-    { ad: "San Sebastian", aciklama: "İçi akışkan, dışı hafif yanık.", fiyat: 150 }
+    { ad: "San Sebastian", aciklama: "İçi akışkan, dışı hafif yanık.", fiyat: 150 },
+    { ad: "Tiramisu", aciklama: "Kahvenin en tatlı hali.", fiyat: 120 }
   ]
 };
