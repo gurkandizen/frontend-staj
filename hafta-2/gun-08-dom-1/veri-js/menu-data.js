@@ -7,18 +7,18 @@ export const menuData = {
     { name: "Flat White", description: "İnce köpük, güçlü karakter.", price: 105 },
     { name: "Karamel Latte", description: "Ev yapımı karamel sosuyla.", price: 110 }
   ],
-  filtre: [
+  filter: [
     { name: "Türk Kahvesi", description: "Bakır cezvede, köpüğü yerinde.", price: 70 },
     { name: "Klasik Filtre", description: "Günün çekirdeği, %100 Arabica.", price: 85 },
     { name: "V60 Demleme", description: "Elle dökme; çiçeksi, berrak.", price: 120 },
     { name: "Chemex · 2 kişilik", description: "Paylaşımlık, temiz gövde.", price: 180 }
   ],
-  soguk: [
+  cold: [
     { name: "Buzlu Latte", description: "Soğuk süt, taze espresso.", price: 105 },
     { name: "Cold Brew", description: "12 saat demleme, düşük asit.", price: 115 },
     { name: "Affogato", description: "Sade dondurma, sıcak espresso.", price: 130 }
   ],
-  tatli: [
+  dessert: [
     { name: "Tereyağlı Kruvasan", description: "Taptaze fırından, Fransız klasiği.", price: 90 },
     { name: "Günün Keki", description: "Tezgâhta ne varsa, o günün tazesi.", price: 85 },
     { name: "Fındıklı Brownie", description: "Yoğun çikolata, kavrulmuş fındık.", price: 95 },

@@ -22,19 +22,19 @@ export function renderMenu() {
         // Satır içi (m-name, m-leader, m-price)
         const nameSpan = document.createElement("span");
         nameSpan.classList.add("m-name");
-        nameSpan.textContent = urun.ad;
+        nameSpan.textContent = product.name;
 
         const leaderSpan = document.createElement("span");
         leaderSpan.classList.add("m-leader");
 
         const priceSpan = document.createElement("span");
         priceSpan.classList.add("m-price");
-        priceSpan.textContent = urun.fiyat + "₺";
+        priceSpan.textContent = product.price + "₺";
 
         // Açıklama Span
         const descSpan = document.createElement("span");
         descSpan.classList.add("m-desc");
-        descSpan.textContent = urun.aciklama;
+        descSpan.textContent = product.description;
 
         // Span'leri .m-line içine bağlıyoruz
         lineDiv.appendChild(nameSpan);
@@ -53,7 +53,7 @@ export function renderMenu() {
 
         if(!container) return;
 
-        products.forEach(urun => {
+        products.forEach(product => {
             const productElement = createMenuItem(product);
             container.appendChild(productElement);
         });
