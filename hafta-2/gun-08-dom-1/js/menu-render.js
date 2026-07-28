@@ -10,7 +10,7 @@ import { menuData } from "../veri-js/menu-data.js";
     // </div>
 
 export function renderMenu() {
-    function createMenuItem(urun) {
+    function createMenuItem(product) {
         // Dış kapsayıcı (.m-item)
         const itemDiv = document.createElement("div");
         itemDiv.classList.add("m-item");
@@ -48,14 +48,14 @@ export function renderMenu() {
         return itemDiv;
     }
 
-    Object.entries(menuData).forEach(([kategoriAdi, urunlerDizisi]) => {
-        const container = document.querySelector(`[data-items="${kategoriAdi}"]`);
+    Object.entries(menuData).forEach(([categoryKey, products]) => {
+        const container = document.querySelector(`[data-items="${categoryKey}"]`);
 
         if(!container) return;
 
-        urunlerDizisi.forEach(urun => {
-            const urunElementi = createMenuItem(urun);
-            container.appendChild(urunElementi);
+        products.forEach(urun => {
+            const productElement = createMenuItem(product);
+            container.appendChild(productElement);
         });
     });
 }

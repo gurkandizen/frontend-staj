@@ -1,28 +1,28 @@
 export const menuData = {
   espresso: [
-    { ad: "Double Espresso", aciklama: "Tek shot ile yetinemeyenler için", fiyat: 75 },
-    { ad: "Espresso", aciklama: "Tek shot; yoğun, kısa.", fiyat: 65 },
-    { ad: "Cortado", aciklama: "Espresso ve az sütün dengesi.", fiyat: 95 },
-    { ad: "Cappuccino", aciklama: "Kadifemsi köpük, üç katman.", fiyat: 100 },
-    { ad: "Flat White", aciklama: "İnce köpük, güçlü karakter.", fiyat: 105 },
-    { ad: "Karamel Latte", aciklama: "Ev yapımı karamel sosuyla.", fiyat: 110 }
+    { name: "Double Espresso", description: "Tek shot ile yetinemeyenler için", price: 75 },
+    { name: "Espresso", description: "Tek shot; yoğun, kısa.", price: 65 },
+    { name: "Cortado", description: "Espresso ve az sütün dengesi.", price: 95 },
+    { name: "Cappuccino", description: "Kadifemsi köpük, üç katman.", price: 100 },
+    { name: "Flat White", description: "İnce köpük, güçlü karakter.", price: 105 },
+    { name: "Karamel Latte", description: "Ev yapımı karamel sosuyla.", price: 110 }
   ],
   filtre: [
-    { ad: "Türk Kahvesi", aciklama: "Bakır cezvede, köpüğü yerinde.", fiyat: 70 },
-    { ad: "Klasik Filtre", aciklama: "Günün çekirdeği, %100 Arabica.", fiyat: 85 },
-    { ad: "V60 Demleme", aciklama: "Elle dökme; çiçeksi, berrak.", fiyat: 120 },
-    { ad: "Chemex · 2 kişilik", aciklama: "Paylaşımlık, temiz gövde.", fiyat: 180 }
+    { name: "Türk Kahvesi", description: "Bakır cezvede, köpüğü yerinde.", price: 70 },
+    { name: "Klasik Filtre", description: "Günün çekirdeği, %100 Arabica.", price: 85 },
+    { name: "V60 Demleme", description: "Elle dökme; çiçeksi, berrak.", price: 120 },
+    { name: "Chemex · 2 kişilik", description: "Paylaşımlık, temiz gövde.", price: 180 }
   ],
   soguk: [
-    { ad: "Buzlu Latte", aciklama: "Soğuk süt, taze espresso.", fiyat: 105 },
-    { ad: "Cold Brew", aciklama: "12 saat demleme, düşük asit.", fiyat: 115 },
-    { ad: "Affogato", aciklama: "Sade dondurma, sıcak espresso.", fiyat: 130 }
+    { name: "Buzlu Latte", description: "Soğuk süt, taze espresso.", price: 105 },
+    { name: "Cold Brew", description: "12 saat demleme, düşük asit.", price: 115 },
+    { name: "Affogato", description: "Sade dondurma, sıcak espresso.", price: 130 }
   ],
   tatli: [
-    { ad: "Tereyağlı Kruvasan", aciklama: "Taptaze fırından, Fransız klasiği.", fiyat: 90 },
-    { ad: "Günün Keki", aciklama: "Tezgâhta ne varsa, o günün tazesi.", fiyat: 85 },
-    { ad: "Fındıklı Brownie", aciklama: "Yoğun çikolata, kavrulmuş fındık.", fiyat: 95 },
-    { ad: "San Sebastian", aciklama: "İçi akışkan, dışı hafif yanık.", fiyat: 150 },
-    { ad: "Tiramisu", aciklama: "Kahvenin en tatlı hali.", fiyat: 120 }
+    { name: "Tereyağlı Kruvasan", description: "Taptaze fırından, Fransız klasiği.", price: 90 },
+    { name: "Günün Keki", description: "Tezgâhta ne varsa, o günün tazesi.", price: 85 },
+    { name: "Fındıklı Brownie", description: "Yoğun çikolata, kavrulmuş fındık.", price: 95 },
+    { name: "San Sebastian", description: "İçi akışkan, dışı hafif yanık.", price: 150 },
+    { name: "Tiramisu", description: "Kahvenin en tatlı hali.", price: 120 }
   ]
 };
