@@ -30,6 +30,26 @@ payı yalnızca JavaScript/DOM/async bloklarının *dışında*, tekrar niteliğ
 
 ---
 
+## Ana Proje (Sürekli) — 1326 Bursa
+
+Mentörün kararıyla, hemen her günün pratik görevi tek bir ana proje ("1326 Bursa" adlı hayali
+kahve dükkânı sitesi) üzerine ekleme yapılarak uygulanıyor. Bu, milestone projelerden (aşağıdaki
+tablo) farklı — tek seferlik bir teslim değil, **sürekli büyüyen** bir proje.
+
+**Gün 1-8:** Bu projenin kodu doğrudan bu repoda, ilgili gün klasörlerinde tutuldu.
+
+**Gün 9'dan itibaren:** Proje, ekip liderimin önerisiyle **bağımsız bir repoya** taşındı —
+karmaşıklığı azaltmak ve gerçek bir branch/PR akışı deneyimlemek için.
+
+- **Repo:** [`bursa-1326-cafe`](https://github.com/gurkandizen/bursa-1326-cafe)
+- **Akış:** Her gün kendi `feature/day-XX-...` branch'inde geliştirilir, bir Pull Request ile
+  `main`'e birleştirilir.
+- **Bu repodaki iz:** Gün 9'dan itibaren, ilgili gün klasöründe kod bulunmaz — sadece o günün
+  `bursa-1326-cafe` reposundaki **PR linkine yönlendiren** kısa bir not vardır. Günlük notlar
+  (`gunluk-notlar/gun-XX.md`) öğrenme kaydı olduğu için burada, bu repoda tutulmaya devam eder.
+
+---
+
 ## Günlük Takip Tablosu
 
 | Gün | Konu | Konum | Durum |
@@ -40,9 +60,9 @@ payı yalnızca JavaScript/DOM/async bloklarının *dışında*, tekrar niteliğ
 | 4 | JavaScript temelleri I | [`gun-04-js-temelleri-1`](hafta-1/gun-04-js-temelleri-1/) | [x] |
 | 5 | JavaScript temelleri II + hafta değerlendirmesi *(mentor görüşmesi)* | [`gun-05-js-temelleri-2`](hafta-1/gun-05-js-temelleri-2/) | [x] |
 | 6 | Diziler ve objeler | [`gun-06-diziler-objeler`](hafta-2/gun-06-diziler-objeler/) | [x] |
-| 7 | Array metodları | [`gun-07-array-metodlari`](hafta-2/gun-07-array-metodlari/) | ☐ |
-| 8 | DOM I: Seçme ve manipülasyon | [`gun-08-dom-1`](hafta-2/gun-08-dom-1/) | ☐ |
-| 9 | DOM II: Event'ler | [`gun-09-dom-2`](hafta-2/gun-09-dom-2/) | ☐ |
+| 7 | Array metodları | [`gun-07-array-metodlari`](hafta-2/gun-07-array-metodlari/) | [x] |
+| 8 | DOM I: Seçme ve manipülasyon | [`gun-08-dom-1`](hafta-2/gun-08-dom-1/) | [x] |
+| 9 | DOM II: Event'ler | [`gun-09-dom-2`](hafta-2/gun-09-dom-2/) → `bursa-1326-cafe` (PR) | ☐ |
 | 10 | Mini proje: Vanilla JS Todo | [`gun-10-vanilla-todo`](hafta-2/gun-10-vanilla-todo/) → `vanilla-todo-app` | ☐ |
 | 11 | Modern JavaScript (ES6+) | [`gun-11-modern-js`](hafta-3/gun-11-modern-js/) | ☐ |
 | 12 | Asenkron JavaScript | [`gun-12-asenkron-js`](hafta-3/gun-12-asenkron-js/) | ☐ |
@@ -64,6 +84,10 @@ payı yalnızca JavaScript/DOM/async bloklarının *dışında*, tekrar niteliğ
 | 28 | Code review ve refactor | [`gun-28-review`](hafta-6/gun-28-review/) → `bitirme-projesi` | ☐ |
 | 29 | Deployment ve dokümantasyon | [`gun-29-deployment`](hafta-6/gun-29-deployment/) → `bitirme-projesi` | ☐ |
 | 30 | Sunum ve final değerlendirme **← FİNAL DEĞERLENDİRME** | [`gun-30-sunum`](hafta-6/gun-30-sunum/) | ☐ |
+
+> **Not:** Gün 9 satırındaki `→ bursa-1326-cafe (PR)` işareti, o günden itibaren 1326 Bursa
+> projesine devam eden her gün için geçerli olan yeni kalıptır — ilgili gün klasöründe kod
+> yerine PR linki bulunur. Bu, yukarıdaki "Ana Proje (Sürekli)" bölümünde açıklanmıştır.
 
 ---
 
@@ -89,14 +113,16 @@ frontend-staj/
 
 **Mantık:** klasörler teknolojiye göre değil (HTML/ CSS/ JS/ gibi), **güne ve göreve** göre bölündü.
 Her gün klasörünün içinde bir `README.md` var: o günün görevi, beklenen çıktısı, durumu. Kod da
-aynı klasörde. Böylece bir klasöre bakan kişi, dosyaları açmadan ne olduğunu anlıyor.
+aynı klasörde (Gün 9'dan itibaren 1326 Bursa'ya devam eden günler hariç — bkz. yukarıdaki not).
+Böylece bir klasöre bakan kişi, dosyaları açmadan ne olduğunu anlıyor.
 
 ---
 
 ## Ayrı Repolar — milestone projeler
 
 Bu dört proje tek başına çalışan, kendi README'si olan gerçek projeler (program bunlar için açıkça
-"ayrı repo" diyor). Günlük egzersizlerin arasına gömülmediler.
+"ayrı repo" diyor). Günlük egzersizlerin arasına gömülmediler. (`bursa-1326-cafe` bu listede değil —
+o bir milestone değil, sürekli devam eden ana proje; yukarıdaki özel bölüme bakın.)
 
 | Proje | Gün | Repo | Link |
 |---|:--:|---|---|
