@@ -21,6 +21,10 @@
     box-sizing: border-box;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -671,6 +675,32 @@ header {
     border-bottom: 1px solid rgba(181, 121, 58, 0.25);
 }
 
+.menu-tabs::before,
+.menu-tabs::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 32px;
+    pointer-events: none;   /* tıklamaları engellemesin, sadece görsel */
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.25s ease;
+}
+
+.menu-tabs::before {
+    left: 0;
+    background: linear-gradient(to right, #f4ead4, rgba(244, 234, 212, 0));
+}
+
+.menu-tabs::after {
+    right: 0;
+    background: linear-gradient(to left, #f4ead4, rgba(244, 234, 212, 0));
+}
+
+.menu-tabs.can-scroll-left::before  { opacity: 1; }
+.menu-tabs.can-scroll-right::after  { opacity: 1; }
+
 .menu-tab {
     position: relative;
     background: none;
@@ -683,7 +713,7 @@ header {
     letter-spacing: 2px;
     font-size: 15px;
     color: rgba(22, 35, 29, 0.45);
-    transition: color 0.25 ease;
+    transition: color 0.25s ease;
 }
 
 .menu-tab:hover {
@@ -1138,6 +1168,34 @@ footer {
     flex-direction: column;
     gap: 30px;
     padding: 40px 26px 44px;
+  }
+
+  /* MENU SEKMELERİ */
+  .menu-tabs {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 8px 22px;
+    width: 100%;
+    min-width: 0; 
+    padding-bottom: 14px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    overscroll-behavior-x: contain;
+  }
+
+  .menu-tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .menu-tab {
+    flex: 0 0 auto;
+    white-space: nowrap;
+    font-size: 13.5px;
+    letter-spacing: 1.5px;
+  }
+
+  .menu-tab.is-active::after {
+    bottom: -13px;
   }
 
   .footer-container {
