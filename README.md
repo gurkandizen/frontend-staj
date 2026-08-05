@@ -41,7 +41,7 @@ tablo) farklı — tek seferlik bir teslim değil, **sürekli büyüyen** bir pr
 **Gün 9'dan itibaren:** Proje, ekip liderimin önerisiyle **bağımsız bir repoya** taşındı —
 karmaşıklığı azaltmak ve gerçek bir branch/PR akışı deneyimlemek için.
 
-- **Repo:** [`bursa-1326-cafe`](https://github.com/gurkandizen/bursa-1326-cafe)
+- **Repo:** [`bursa-1326-cafe`](https://github.com/KULLANICI_ADIN/bursa-1326-cafe) *(linki güncelle)*
 - **Akış:** Her gün kendi `feature/day-XX-...` branch'inde geliştirilir, bir Pull Request ile
   `main`'e birleştirilir.
 - **Bu repodaki iz:** Gün 9'dan itibaren, ilgili gün klasöründe kod bulunmaz — sadece o günün
@@ -62,7 +62,7 @@ karmaşıklığı azaltmak ve gerçek bir branch/PR akışı deneyimlemek için.
 | 6 | Diziler ve objeler | [`gun-06-diziler-objeler`](hafta-2/gun-06-diziler-objeler/) | [x] |
 | 7 | Array metodları | [`gun-07-array-metodlari`](hafta-2/gun-07-array-metodlari/) | [x] |
 | 8 | DOM I: Seçme ve manipülasyon | [`gun-08-dom-1`](hafta-2/gun-08-dom-1/) | [x] |
-| 9 | DOM II: Event'ler | [`gun-09-dom-2`](hafta-2/gun-09-dom-2/) → `bursa-1326-cafe` (PR) | ☐ |
+| 9 | DOM II: Event'ler | [`gun-09-dom-2`](hafta-2/gun-09-dom-2/) → `bursa-1326-cafe` ([PR #1](https://github.com/gurkandizen/bursa-1326-cafe/pull/1), [PR #2](https://github.com/gurkandizen/bursa-1326-cafe/pull/2)) | [x] |
 | 10 | Mini proje: Vanilla JS Todo | [`gun-10-vanilla-todo`](hafta-2/gun-10-vanilla-todo/) → `vanilla-todo-app` | ☐ |
 | 11 | Modern JavaScript (ES6+) | [`gun-11-modern-js`](hafta-3/gun-11-modern-js/) | ☐ |
 | 12 | Asenkron JavaScript | [`gun-12-asenkron-js`](hafta-3/gun-12-asenkron-js/) | ☐ |
