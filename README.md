@@ -63,7 +63,7 @@ karmaşıklığı azaltmak ve gerçek bir branch/PR akışı deneyimlemek için.
 | 7 | Array metodları | [`gun-07-array-metodlari`](hafta-2/gun-07-array-metodlari/) | [x] |
 | 8 | DOM I: Seçme ve manipülasyon | [`gun-08-dom-1`](hafta-2/gun-08-dom-1/) | [x] |
 | 9 | DOM II: Event'ler | [`gun-09-dom-2`](hafta-2/gun-09-dom-2/) → `bursa-1326-cafe` ([PR #1](https://github.com/gurkandizen/bursa-1326-cafe/pull/1), [PR #2](https://github.com/gurkandizen/bursa-1326-cafe/pull/2)) | [x] |
-| 10 | Mini proje: Vanilla JS Todo | [`gun-10-vanilla-todo`](hafta-2/gun-10-vanilla-todo/) → `vanilla-todo-app` | ☐ |
+| 10 | Mini proje: Vanilla JS Todo | [`gun-10-vanilla-todo`](hafta-2/gun-10-vanilla-todo/) → `vanilla-todo-app` | [x] |
 | 11 | Modern JavaScript (ES6+) | [`gun-11-modern-js`](hafta-3/gun-11-modern-js/) | ☐ |
 | 12 | Asenkron JavaScript | [`gun-12-asenkron-js`](hafta-3/gun-12-asenkron-js/) | ☐ |
 | 13 | Fetch ve API tüketimi | [`gun-13-fetch-api`](hafta-3/gun-13-fetch-api/) | ☐ |
@@ -126,7 +126,7 @@ o bir milestone değil, sürekli devam eden ana proje; yukarıdaki özel bölüm
 
 | Proje | Gün | Repo | Link |
 |---|:--:|---|---|
-| Vanilla JS Todo | 10 · ES6 refactor: 11 | `vanilla-todo-app` | _(ekle)_ |
+| Vanilla JS Todo | 10 · ES6 refactor: 11 | `vanilla-todo-app` | [gurkandizen/vanilla-todo-app](https://github.com/gurkandizen/vanilla-todo-app) |
 | API Arama Uygulaması | 14 | `api-arama-uygulamasi` | _(ekle)_ |
 | React Todo | 20 | `react-todo-app` | _(ekle)_ |
 | Bitirme Projesi | 26-29 | `bitirme-projesi` | _(canlı URL'yi ekle)_ |
