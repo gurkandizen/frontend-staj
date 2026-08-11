@@ -9,6 +9,9 @@
 - **Spread ve Rest:** Aynı `...` sembolünün iki farklı işi — spread (dizi/obje kopyalama, birleştirme; atama operatörünün sağında), rest (fonksiyon parametrelerini toplama, destructuring'de "geri kalanı alma"; atama operatörünün/parametre listesinin solunda).
 - **Template literal ileri düzey:** Çok satırlı string, `${}` içine doğrudan hesaplama/ternary/fonksiyon çağrısı yazma, hatta iç içe template literal.
 - **Modüller derinlemesine:** Named export ile birden fazla şey dışa aktarma (zaten biliyordum), `import * as İsim` ile tüm modülü tek obje gibi alma (yeni).
+- **Object shorthand property:** Alan adı ile değişken adı aynıysa (`text: text`), sadece `text` yazmanın yeterli olduğu — PDF'te değinilmemiş, alıştırma sırasında öğrendiğim küçük bir ES6 detayı.
+- **Mutasyonsuz güncelleme (React'e hazırlık):** `find` ile bulup doğrudan değiştirmek yerine, `map` + spread + ternary ile "değişecek olanın kopyasını üretip diğerlerini olduğu gibi bırakma" deseni — ileride React'te zorunlu olacak bir felsefenin JS temeli.
+- **`localStorage`'ın origin bazlı çalıştığı:** `file://` ile `http://localhost` (Live Server), tarayıcı için tamamen farklı "adresler" sayılıyor, her birinin **ayrı** `localStorage` deposu var — bu yüzden sayfayı yanlış şekilde açınca önceden eklenmiş görevler "kaybolmuş" gibi görünüyor (aslında değiller, sadece farklı bir depoya bakıyorsun).
 
 ## Nerede takıldım?
 
@@ -17,6 +20,9 @@
 - **Paylaşılan mutasyon hatası:** İki farklı fonksiyonun (normal ve arrow) aynı objeyi `!task.completed` yerine `task.completed = !task.completed` ile mutasyona uğratması, ikisinin farklı sonuç vermesine yol açtı — "aynı girdide aynı sonucu karşılaştırma" amacını bozdu. Sadece hesaplayıp döndürerek (mutasyonsuz) düzelttim.
 - **Dosya karışıklığı:** `02-destructuring.js`'e yazmam gereken senaryoları yanlışlıkla `01-arrow-functions.js`'in içine, önceki senaryoların arasına eklemiştim — dosyaları ayırmam gerektiğini fark edip düzelttim.
 - **Varsayılan değer ile "dizide gerçekten var olan eleman" kavramlarını karıştırma:** Bir dizi destructuring senaryosunda, dizide olmayan bir elemana varsayılan değer vermek ile dizide gerçekten var olan bir elemanı atlayarak almak birbirine karıştı; ikisi görünüşte aynı sonucu (aynı değeri yazdırma) verdiği için hatayı ilk seferde fark etmedim.
+- **`map`'e yanlış argüman verme (Aşama B):** `toggleTask`'ı mutasyonsuz hale getirirken, `map`'e tek bir callback fonksiyonu yerine virgülle ayrılmış iki ayrı ifade (`tasks.map(t.id === id, {...})`) verdim — geçerli olmayan bir söz dizimiydi, `t` de hiçbir yerde tanımlanmamıştı. Doğrusu, `t => t.id === id ? {...t, completed: !t.completed} : t` şeklinde tek bir arrow function + ternary'ydi.
+- **Değişken yeniden adlandırmada satır atlama (Aşama B, gerçek çökme):** `render.js`'te `text` ismini hem destructuring'den gelen string hem de bir DOM elementi için kullanmıştım; elementi `elSpan` olarak yeniden adlandırırken, `text.classList.add(...)` satırını gözden kaçırdım. Bu, tarayıcıda gerçek bir çökmeye yol açtı: `renderTasks` bir tamamlanmış göreve gelince hata fırlatıp duruyordu, bu yüzden hem yeni görev eklenemiyor (fonksiyonun geri kalanına, event listener'ların bağlandığı satırlara hiç ulaşılamıyordu) hem de var olan görevler ekranda hiç görünmüyordu (silinmemişlerdi, sadece render çöktüğü için basılamıyorlardı).
+- **`file://` ile açma sonucu modül + localStorage karışıklığı (Aşama B):** Sayfayı doğrudan çift tıklayarak açtığımda, `type="module"` script CORS nedeniyle hiç yüklenmedi; ayrıca `file://` ile `http://localhost` (Live Server) farklı origin sayıldığı için görevlerim "kaybolmuş" gibi göründü. Live Server ile açınca ikisi de düzeldi.
 
 ## Bu konuyu kod olmadan anlatabilir miyim?
 
@@ -28,8 +34,10 @@
 
 - Kavram anlatımı (Arrow Function, Destructuring, Spread/Rest, Template Literal, Modüller) PDF olarak Claude tarafından hazırlandı.
 - Beş alıştırma dosyasının (Aşama A) **tamamı** tarafımdan yazıldı — kod hiç verilmedi, sadece görev adımları ve (takıldığım noktalarda) ipuçları alındı.
-- Evet, yazdığım her satırı açıklayabiliyorum — üstelik yaptığım hataların çoğunu (mutasyon, dosya karışıklığı, varsayılan değer karışıklığı) kendim fark edip düzelttim.
+- Aşama B'de (gerçek proje refactor'ü) hangi dosyada hangi ES6 fırsatının anlamlı olduğu bana açıklandı, ama kod satırlarını yine kendim yazdım — hatalarımı (map syntax hatası, çökme) kendim düzelttim.
+- Evet, yazdığım her satırı açıklayabiliyorum.
 
 ## Yarına not
 
-- Aşama B (gerçek `vanilla-todo-app` refactor'ü, branch + PR) henüz tamamlanmadı — bir sonraki oturumda devam edilecek.
+- Aşama B tamamlandı: `storage.js`, `render.js`, `todo.js` refactor edildi, PR birleşti → [PR #1](https://github.com/gurkandizen/vanilla-todo-app/pull/1)
+- `todo.js`'teki kalan `function` bildirimleri (`generateId`, `deleteTask`, `getFilteredTasks`, `refresh`, `setFilter`, `initTodoApp`) bilinçli olarak arrow function'a çevrilmedi — kapsamı gereksiz genişletmemek için bırakıldı.

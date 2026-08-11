@@ -64,7 +64,7 @@ karmaşıklığı azaltmak ve gerçek bir branch/PR akışı deneyimlemek için.
 | 8 | DOM I: Seçme ve manipülasyon | [`gun-08-dom-1`](hafta-2/gun-08-dom-1/) | [x] |
 | 9 | DOM II: Event'ler | [`gun-09-dom-2`](hafta-2/gun-09-dom-2/) → `bursa-1326-cafe` ([PR #1](https://github.com/gurkandizen/bursa-1326-cafe/pull/1), [PR #2](https://github.com/gurkandizen/bursa-1326-cafe/pull/2)) | [x] |
 | 10 | Mini proje: Vanilla JS Todo | [`gun-10-vanilla-todo`](hafta-2/gun-10-vanilla-todo/) → `vanilla-todo-app` | [x] |
-| 11 | Modern JavaScript (ES6+) | [`gun-11-modern-js`](hafta-3/gun-11-modern-js/) | ☐ |
+| 11 | Modern JavaScript (ES6+) | [`gun-11-modern-js`](hafta-3/gun-11-modern-js/) → `vanilla-todo-app` ([PR #1](https://github.com/gurkandizen/vanilla-todo-app/pull/1)) | [x] |
 | 12 | Asenkron JavaScript | [`gun-12-asenkron-js`](hafta-3/gun-12-asenkron-js/) | ☐ |
 | 13 | Fetch ve API tüketimi | [`gun-13-fetch-api`](hafta-3/gun-13-fetch-api/) | ☐ |
 | 14 | API projesi | [`gun-14-api-projesi`](hafta-3/gun-14-api-projesi/) → `api-arama-uygulamasi` | ☐ |
@@ -87,7 +87,9 @@ karmaşıklığı azaltmak ve gerçek bir branch/PR akışı deneyimlemek için.
 
 > **Not:** Gün 9 satırındaki `→ bursa-1326-cafe (PR)` işareti, o günden itibaren 1326 Bursa
 > projesine devam eden her gün için geçerli olan yeni kalıptır — ilgili gün klasöründe kod
-> yerine PR linki bulunur. Bu, yukarıdaki "Ana Proje (Sürekli)" bölümünde açıklanmıştır.
+> yerine PR linki bulunur. Bu, yukarıdaki "Ana Proje (Sürekli)" bölümünde açıklanmıştır. Gün 10
+> ve 11'deki `→ vanilla-todo-app` işareti de benzer bir kalıp — ama bu bir milestone proje
+> (aşağıdaki tabloya bakın), sürekli ana proje değil.
 
 ---
 
