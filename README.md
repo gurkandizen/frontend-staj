@@ -65,8 +65,8 @@ karmaşıklığı azaltmak ve gerçek bir branch/PR akışı deneyimlemek için.
 | 9 | DOM II: Event'ler | [`gun-09-dom-2`](hafta-2/gun-09-dom-2/) → `bursa-1326-cafe` ([PR #1](https://github.com/gurkandizen/bursa-1326-cafe/pull/1), [PR #2](https://github.com/gurkandizen/bursa-1326-cafe/pull/2)) | [x] |
 | 10 | Mini proje: Vanilla JS Todo | [`gun-10-vanilla-todo`](hafta-2/gun-10-vanilla-todo/) → `vanilla-todo-app` | [x] |
 | 11 | Modern JavaScript (ES6+) | [`gun-11-modern-js`](hafta-3/gun-11-modern-js/) → `vanilla-todo-app` ([PR #1](https://github.com/gurkandizen/vanilla-todo-app/pull/1)) | [x] |
-| 12 | Asenkron JavaScript | [`gun-12-asenkron-js`](hafta-3/gun-12-asenkron-js/) | ☐ |
-| 13 | Fetch ve API tüketimi | [`gun-13-fetch-api`](hafta-3/gun-13-fetch-api/) | ☐ |
+| 12 | Asenkron JavaScript | [`gun-12-asenkron-js`](hafta-3/gun-12-asenkron-js/) | [x] |
+| 13 | Fetch ve API tüketimi | [`gun-13-fetch-api`](hafta-3/gun-13-fetch-api/) | [x] |
 | 14 | API projesi | [`gun-14-api-projesi`](hafta-3/gun-14-api-projesi/) → `api-arama-uygulamasi` | ☐ |
 | 15 | Tooling + hafta değerlendirmesi **← KONTROL NOKTASI** | [`gun-15-tooling`](hafta-3/gun-15-tooling/) | ☐ |
 | 16 | React'e giriş | [`gun-16-react-giris`](hafta-4/gun-16-react-giris/) | ☐ |
